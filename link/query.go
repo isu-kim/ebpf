@@ -5,7 +5,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf/internal/sys"
 )
 
 // QueryOptions defines additional parameters when querying for programs.

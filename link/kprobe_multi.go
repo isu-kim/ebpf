@@ -6,10 +6,10 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/sys"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 // KprobeMultiOptions defines additional parameters that will be used

@@ -3,7 +3,7 @@ package features
 import (
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func TestHaveLargeInstructions(t *testing.T) {

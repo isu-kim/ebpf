@@ -3,7 +3,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 
 	qt "github.com/frankban/quicktest"
 )

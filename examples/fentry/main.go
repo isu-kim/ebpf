@@ -23,13 +23,13 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/isu-kim/ebpf-mod/link"
-	"github.com/isu-kim/ebpf-mod/ringbuf"
-	"github.com/isu-kim/ebpf-mod/rlimit"
+	"github.com/isu-kim/ebpf/link"
+	"github.com/isu-kim/ebpf/ringbuf"
+	"github.com/isu-kim/ebpf/rlimit"
 )
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/isu-kim/ebpf-mod/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS -type event bpf fentry.c -- -I../headers
+//go:generate go run github.com/isu-kim/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS -type event bpf fentry.c -- -I../headers
 
 func main() {
 	stopper := make(chan os.Signal, 1)

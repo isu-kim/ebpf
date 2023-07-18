@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf/internal/unix"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"

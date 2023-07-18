@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/isu-kim/ebpf-mod"
+	"github.com/isu-kim/ebpf"
 )
 
 type bpfEvent struct {

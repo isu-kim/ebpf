@@ -7,10 +7,10 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
-	"github.com/isu-kim/ebpf-mod/internal/tracefs"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf/internal/tracefs"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 // Global symbol, present on all tested kernels.

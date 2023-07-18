@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 var ErrClosedFd = unix.EBADF

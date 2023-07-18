@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 func FuzzSpec(f *testing.F) {

@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/isu-kim/ebpf-mod/internal/sys"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 // InstructionSize is the size of a BPF instruction in bytes

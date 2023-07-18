@@ -6,9 +6,9 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/sys"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 // HaveMapType probes the running kernel for the availability of the specified map type.

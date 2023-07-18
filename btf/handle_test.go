@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func TestHandleIterator(t *testing.T) {

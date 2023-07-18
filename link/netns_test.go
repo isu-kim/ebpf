@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func TestSkLookup(t *testing.T) {

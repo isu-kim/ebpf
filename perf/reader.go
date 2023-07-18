@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/epoll"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/epoll"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 var (

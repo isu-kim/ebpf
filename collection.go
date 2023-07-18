@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/kconfig"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/kconfig"
 )
 
 // CollectionOptions control loading a collection into the kernel.

@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
+	"github.com/isu-kim/ebpf"
 
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/sys"
 )
 
 var ErrNotSupported = internal.ErrNotSupported

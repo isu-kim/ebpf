@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 func TestPoller(t *testing.T) {

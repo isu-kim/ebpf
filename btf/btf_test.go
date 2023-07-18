@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	qt "github.com/frankban/quicktest"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func vmlinuxSpec(tb testing.TB) *Spec {

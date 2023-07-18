@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/isu-kim/ebpf-mod/rlimit"
+	"github.com/isu-kim/ebpf/rlimit"
 )
 
 const BPF_F_INNER_MAP = 0x1000

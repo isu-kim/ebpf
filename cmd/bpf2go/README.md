@@ -9,7 +9,7 @@ from `bpftool gen skeleton`.
 
 Invoke the program using go generate:
 
-    //go:generate go run github.com/isu-kim/ebpf-mod/cmd/bpf2go foo path/to/src.c -- -I/path/to/include
+    //go:generate go run github.com/isu-kim/ebpf/cmd/bpf2go foo path/to/src.c -- -I/path/to/include
 
 This will emit `foo_bpfel.go` and `foo_bpfeb.go`, with types using `foo`
 as a stem. The two files contain compiled BPF for little and big
@@ -18,7 +18,7 @@ endian systems, respectively.
 You can use environment variables to affect all bpf2go invocations
 across a project, e.g. to set specific C flags:
 
-    //go:generate go run github.com/isu-kim/ebpf-mod/cmd/bpf2go -cflags "$BPF_CFLAGS" foo path/to/src.c
+    //go:generate go run github.com/isu-kim/ebpf/cmd/bpf2go -cflags "$BPF_CFLAGS" foo path/to/src.c
 
 By exporting `$BPF_CFLAGS` from your build system you can then control
 all builds from a single location.

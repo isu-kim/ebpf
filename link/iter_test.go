@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func TestIter(t *testing.T) {

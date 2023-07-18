@@ -1,4 +1,4 @@
-module github.com/isu-kim/ebpf-mod
+module github.com/isu-kim/ebpf
 
 go 1.19
 

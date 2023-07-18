@@ -6,8 +6,8 @@ import (
 
 	qt "github.com/frankban/quicktest"
 	"github.com/google/go-cmp/cmp"
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 func TestOrderTypes(t *testing.T) {

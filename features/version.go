@@ -1,6 +1,6 @@
 package features
 
-import "github.com/isu-kim/ebpf-mod/internal"
+import "github.com/isu-kim/ebpf/internal"
 
 // LinuxVersionCode returns the version of the currently running kernel
 // as defined in the LINUX_VERSION_CODE compile-time macro. It is represented

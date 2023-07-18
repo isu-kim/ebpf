@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 // Poller waits for readiness notifications from multiple file descriptors.

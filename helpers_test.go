@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func haveTestmod(tb testing.TB) bool {

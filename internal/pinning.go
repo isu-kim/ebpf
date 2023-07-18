@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/isu-kim/ebpf-mod/internal/sys"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 func Pin(currentPath, newPath string, fd *sys.FD) error {

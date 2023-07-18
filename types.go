@@ -1,8 +1,8 @@
 package ebpf
 
 import (
-	"github.com/isu-kim/ebpf-mod/internal/sys"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 //go:generate stringer -output types_string.go -type=MapType,ProgramType,PinType

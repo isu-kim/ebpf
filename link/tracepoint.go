@@ -3,7 +3,7 @@ package link
 import (
 	"fmt"
 
-	"github.com/isu-kim/ebpf-mod/internal/tracefs"
+	"github.com/isu-kim/ebpf/internal/tracefs"
 )
 
 // TracepointOptions defines additional parameters that will be used

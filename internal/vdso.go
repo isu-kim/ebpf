@@ -9,7 +9,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 var (

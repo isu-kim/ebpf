@@ -16,12 +16,12 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/sys"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 func TestProgramRun(t *testing.T) {

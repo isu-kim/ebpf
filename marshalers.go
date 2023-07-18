@@ -11,8 +11,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/sys"
 )
 
 // marshalPtr converts an arbitrary value into a pointer suitable

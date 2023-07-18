@@ -3,7 +3,7 @@ package link
 import (
 	"fmt"
 
-	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf/internal/sys"
 )
 
 type RawAttachProgramOptions struct {

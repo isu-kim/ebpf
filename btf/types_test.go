@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/internal"
 
 	qt "github.com/frankban/quicktest"
 	"github.com/google/go-cmp/cmp"

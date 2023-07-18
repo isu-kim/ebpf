@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 //go:embed output.tpl

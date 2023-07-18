@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/isu-kim/ebpf-mod/rlimit"
+	"github.com/isu-kim/ebpf/rlimit"
 )
 
 func init() {

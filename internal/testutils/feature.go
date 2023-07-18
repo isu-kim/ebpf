@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 const (

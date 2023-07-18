@@ -3,7 +3,7 @@ package internal
 import (
 	"fmt"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 const (

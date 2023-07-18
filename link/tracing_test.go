@@ -3,8 +3,8 @@ package link
 import (
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/testutils"
 )
 
 func TestFreplace(t *testing.T) {

@@ -10,10 +10,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/link"
-	"github.com/isu-kim/ebpf-mod/perf"
-	"github.com/isu-kim/ebpf-mod/rlimit"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/link"
+	"github.com/isu-kim/ebpf/perf"
+	"github.com/isu-kim/ebpf/rlimit"
 )
 
 // Metadata for the eBPF program used in this example.

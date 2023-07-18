@@ -3,7 +3,7 @@ package btf
 import (
 	"fmt"
 
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 // Functions to traverse a cyclic graph of types. The below was very useful:

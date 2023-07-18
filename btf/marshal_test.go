@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/testutils"
 
 	qt "github.com/frankban/quicktest"
 )
@@ -79,7 +79,7 @@ func TestRoundtripVMlinux(t *testing.T) {
 		types[i+1], types[j+1] = types[j+1], types[i+1]
 	})
 
-	// Skip per CPU datasec, see https://github.com/isu-kim/ebpf-mod/issues/921
+	// Skip per CPU datasec, see https://github.com/isu-kim/ebpf/issues/921
 	for i, typ := range types {
 		if ds, ok := typ.(*Datasec); ok && ds.Name == ".data..percpu" {
 			types[i] = types[len(types)-1]

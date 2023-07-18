@@ -3,7 +3,7 @@ package link
 import (
 	"syscall"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 // AttachSocketFilter attaches a SocketFilter BPF program to a socket.

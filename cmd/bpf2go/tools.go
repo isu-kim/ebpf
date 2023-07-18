@@ -87,7 +87,7 @@ func currentModule() string {
 	bi, ok := debug.ReadBuildInfo()
 	if !ok {
 		// Fall back to constant since bazel doesn't support BuildInfo.
-		return "github.com/isu-kim/ebpf-mod"
+		return "github.com/isu-kim/ebpf"
 	}
 
 	return bi.Main.Path

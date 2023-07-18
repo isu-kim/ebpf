@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 // Find find a kconfig file on the host.

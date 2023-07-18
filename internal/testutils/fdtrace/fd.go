@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf/internal/sys"
 )
 
 // TestMain runs m with sys.FD leak tracing enabled.

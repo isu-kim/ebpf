@@ -6,10 +6,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/testutils"
-	"github.com/isu-kim/ebpf-mod/internal/testutils/fdtrace"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf/internal/testutils/fdtrace"
 )
 
 func TestMain(m *testing.M) {

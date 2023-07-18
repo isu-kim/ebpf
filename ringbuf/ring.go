@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 type ringbufEventRing struct {

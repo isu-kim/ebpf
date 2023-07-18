@@ -3,7 +3,7 @@ package internal
 import (
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/internal/unix"
+	"github.com/isu-kim/ebpf/internal/unix"
 )
 
 func FSType(path string) (int64, error) {

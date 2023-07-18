@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/isu-kim/ebpf-mod/internal/testutils/fdtrace"
+	"github.com/isu-kim/ebpf/internal/testutils/fdtrace"
 )
 
 func TestMain(m *testing.M) {

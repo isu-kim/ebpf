@@ -7,9 +7,9 @@ import (
 	"io"
 	"math"
 
-	"github.com/isu-kim/ebpf-mod/asm"
-	"github.com/isu-kim/ebpf-mod/btf"
-	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf/asm"
+	"github.com/isu-kim/ebpf/btf"
+	"github.com/isu-kim/ebpf/internal"
 )
 
 // handles stores handle objects to avoid gc cleanup

@@ -5,7 +5,7 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf/internal/sys"
 )
 
 type IterOptions struct {

@@ -35,7 +35,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/isu-kim/ebpf-mod/asm"
+	"github.com/isu-kim/ebpf/asm"
 )
 
 // ExampleExtractDistance shows how to attach an eBPF socket filter to

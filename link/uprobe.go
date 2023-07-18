@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/isu-kim/ebpf-mod/internal"
-	"github.com/isu-kim/ebpf-mod/internal/tracefs"
+	"github.com/isu-kim/ebpf/internal"
+	"github.com/isu-kim/ebpf/internal/tracefs"
 )
 
 var (
