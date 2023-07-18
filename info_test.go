@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
 	qt "github.com/frankban/quicktest"
+	"github.com/isu-kim/ebpf-mod/asm"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 func TestMapInfoFromProc(t *testing.T) {

@@ -7,10 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/btf"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
 )
 
 func TestCORERelocationLoad(t *testing.T) {

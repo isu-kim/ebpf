@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/isu-kim/ebpf-mod/internal"
 )
 
 const (

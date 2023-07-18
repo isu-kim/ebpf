@@ -5,12 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/asm"
+	"github.com/isu-kim/ebpf-mod/btf"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 // HaveProgType probes the running kernel for the availability of the specified program type.

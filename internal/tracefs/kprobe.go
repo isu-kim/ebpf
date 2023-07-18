@@ -10,8 +10,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 var (

@@ -3,8 +3,7 @@ package link
 import (
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
 )
 
 const IfIndexLO = 1

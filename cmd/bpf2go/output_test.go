@@ -4,11 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
 	qt "github.com/frankban/quicktest"
 	"github.com/google/go-cmp/cmp"
+	"github.com/isu-kim/ebpf-mod/btf"
+	"github.com/isu-kim/ebpf-mod/internal"
 )
 
 func TestOrderTypes(t *testing.T) {

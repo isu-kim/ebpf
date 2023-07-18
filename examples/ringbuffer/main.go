@@ -9,14 +9,14 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/ringbuf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/isu-kim/ebpf-mod/link"
+	"github.com/isu-kim/ebpf-mod/ringbuf"
+	"github.com/isu-kim/ebpf-mod/rlimit"
 	"golang.org/x/sys/unix"
 )
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS -type event bpf ringbuffer.c -- -I../headers
+//go:generate go run github.com/isu-kim/ebpf-mod/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS -type event bpf ringbuffer.c -- -I../headers
 
 func main() {
 	// Name of the kernel function to trace.

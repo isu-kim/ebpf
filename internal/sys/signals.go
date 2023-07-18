@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 // A sigset containing only SIGPROF.

@@ -5,9 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 var kprobeMultiSyms = []string{"vprintk", "inet6_release"}

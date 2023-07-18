@@ -16,12 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/link"
+	"github.com/isu-kim/ebpf-mod/link"
 )
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS bpf xdp.c -- -I../headers
+//go:generate go run github.com/isu-kim/ebpf-mod/cmd/bpf2go -cc $BPF_CLANG -cflags $BPF_CFLAGS bpf xdp.c -- -I../headers
 
 func main() {
 	if len(os.Args) < 2 {

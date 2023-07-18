@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 var (

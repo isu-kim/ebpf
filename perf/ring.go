@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 // perfEventRing is a page of metadata followed by

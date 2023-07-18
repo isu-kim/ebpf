@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 var cgroup2Path = internal.Memoize(func() (string, error) {

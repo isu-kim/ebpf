@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
 	qt "github.com/frankban/quicktest"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
 )
 
 func vmlinuxSpec(tb testing.TB) *Spec {

@@ -9,8 +9,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
+	"github.com/isu-kim/ebpf-mod/asm"
+	"github.com/isu-kim/ebpf-mod/internal"
 )
 
 // ExtInfos contains ELF section metadata.

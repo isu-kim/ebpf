@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/unix"
 	qt "github.com/frankban/quicktest"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 func TestRingBufferReader(t *testing.T) {

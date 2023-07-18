@@ -10,8 +10,6 @@ import (
 	"syscall"
 	"time"
 	"unsafe"
-
-	"github.com/cilium/ebpf"
 )
 
 var program = [...]byte{

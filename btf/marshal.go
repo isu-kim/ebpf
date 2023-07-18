@@ -8,7 +8,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/isu-kim/ebpf-mod/internal"
 
 	"golang.org/x/exp/slices"
 )

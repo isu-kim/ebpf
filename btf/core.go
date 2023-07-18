@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
+	"github.com/isu-kim/ebpf-mod/asm"
 )
 
 // Code in this file is derived from libbpf, which is available under a BSD

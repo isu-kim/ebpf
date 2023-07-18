@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
+	"github.com/isu-kim/ebpf-mod/btf"
+	"github.com/isu-kim/ebpf-mod/internal"
 
 	qt "github.com/frankban/quicktest"
 )

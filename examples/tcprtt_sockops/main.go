@@ -31,17 +31,16 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/ringbuf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/link"
+	"github.com/isu-kim/ebpf-mod/ringbuf"
+	"github.com/isu-kim/ebpf-mod/rlimit"
 
 	"golang.org/x/sys/unix"
 )
 
 // $BPF_CLANG and $BPF_CFLAGS are set by the Makefile.
-//go:generate go run github.com/cilium/ebpf/cmd/bpf2go -tags "linux" -cc $BPF_CLANG -cflags $BPF_CFLAGS -type rtt_event bpf tcprtt_sockops.c -- -I../headers
+//go:generate go run github.com/isu-kim/ebpf-mod/cmd/bpf2go -tags "linux" -cc $BPF_CLANG -cflags $BPF_CFLAGS -type rtt_event bpf tcprtt_sockops.c -- -I../headers
 
 func main() {
 	stopper := make(chan os.Signal, 1)

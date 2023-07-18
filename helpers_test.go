@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/btf"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
 )
 
 func haveTestmod(tb testing.TB) bool {

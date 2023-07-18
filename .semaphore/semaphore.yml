@@ -19,7 +19,7 @@ blocks:
           - sem-version go 1.20.1
           - export PATH="$PATH:$(go env GOPATH)/bin"
           - checkout
-          # Disabled, see https://github.com/cilium/ebpf/issues/898
+          # Disabled, see https://github.com/isu-kim/ebpf-mod/issues/898
           # - cache restore
           - go mod tidy
           - curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b "$(go env GOPATH)/bin" v1.51.2

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/isu-kim/ebpf-mod/internal"
 )
 
 func TestParseExtInfoBigRecordSize(t *testing.T) {

@@ -10,10 +10,9 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/tracefs"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/internal/tracefs"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 var (
@@ -300,7 +299,7 @@ func TestUprobeProgramCall(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if tt.name == "go-binary" {
-				// https://github.com/cilium/ebpf/issues/406
+				// https://github.com/isu-kim/ebpf-mod/issues/406
 				testutils.SkipOnOldKernel(t, "4.14", "uprobes on Go binaries silently fail on kernel < 4.14")
 			}
 

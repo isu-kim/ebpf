@@ -5,8 +5,7 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf-mod/internal/sys"
 )
 
 // QueryOptions defines additional parameters when querying for programs.

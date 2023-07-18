@@ -4,8 +4,6 @@ import (
 	"errors"
 	"fmt"
 	"os"
-
-	"github.com/cilium/ebpf"
 )
 
 type cgroupAttachFlags uint32

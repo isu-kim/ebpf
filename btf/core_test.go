@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
 	"github.com/google/go-cmp/cmp"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
 
 	qt "github.com/frankban/quicktest"
 )

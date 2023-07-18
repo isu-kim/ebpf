@@ -11,9 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
+	"github.com/isu-kim/ebpf-mod/btf"
+	"github.com/isu-kim/ebpf-mod/internal"
 )
 
 //go:embed output.tpl

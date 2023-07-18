@@ -3,8 +3,6 @@ package link
 import (
 	"net"
 	"testing"
-
-	"github.com/cilium/ebpf"
 )
 
 func TestSocketFilterAttach(t *testing.T) {

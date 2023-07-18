@@ -8,12 +8,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/testutils/fdtrace"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/asm"
+	"github.com/isu-kim/ebpf-mod/internal/sys"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/internal/testutils/fdtrace"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 
 	qt "github.com/frankban/quicktest"
 )

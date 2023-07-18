@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 // ENOTSUPP is a Linux internal error code that has leaked into UAPI.

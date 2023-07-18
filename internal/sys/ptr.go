@@ -3,7 +3,7 @@ package sys
 import (
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/isu-kim/ebpf-mod/internal/unix"
 )
 
 // NewPointer creates a 64-bit pointer from an unsafe Pointer.

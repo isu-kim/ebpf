@@ -4,8 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/isu-kim/ebpf-mod/internal/testutils"
 )
 
 func TestIter(t *testing.T) {

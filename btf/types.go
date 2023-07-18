@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/isu-kim/ebpf-mod/asm"
+	"github.com/isu-kim/ebpf-mod/internal"
+	"github.com/isu-kim/ebpf-mod/internal/sys"
 )
 
 const maxTypeDepth = 32
